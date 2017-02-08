@@ -1,2 +1,2 @@
 # Socket_progamming
-Programs using networks and sockets.
+Networking programs using sockets.
