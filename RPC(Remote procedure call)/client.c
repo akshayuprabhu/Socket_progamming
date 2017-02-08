@@ -26,7 +26,7 @@ printf("enter a command\n");
 gets(filename);
 write(sockfd,filename,1000);
 printf("\n data from server: \n");
-while(read(sockfd,recvline,1000)!=0)
+while(read(sockfd,recvline,80)!=0)
 {
 fputs(recvline,stdout);
 }

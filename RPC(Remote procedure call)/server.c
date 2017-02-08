@@ -38,7 +38,7 @@ int main(int argc,char **argv){
 	while(fgets(s,80,fp)!=NULL)
 	{
 	printf("%s",s);
-	write(connfd,s,1000);
+	write(connfd,s,80);
 	}
 	close(listenfd);
 	fclose(fp);
