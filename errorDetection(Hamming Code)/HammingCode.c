@@ -4,7 +4,7 @@
 #include <string.h>
 int main(){
 
-int data[32];
+// int data[32];
 int data[10]={1,1,1,0,1,1,0,1};
 int r=4,m=8,j=0,k=0,i;
 int a[m+r+1];
