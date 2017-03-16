@@ -22,7 +22,7 @@ servaddr.sin_port=htons(SERV_PORT);
 inet_pton(AF_INET,argv[1],&servaddr.sin_addr);
 connect(sockfd,(struct sockaddr*)&servaddr,sizeof(servaddr));
 
-printf("The data to be sent is 1 1 1 0 1 1 0 1\n");
+// printf("The data to be sent is 1 1 1 0 1 1 0 1\n");
 
 int data[10]={1,1,1,0,1,1,0,1};
 int r=4,m=8,k=0;
